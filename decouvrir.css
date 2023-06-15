@@ -1,0 +1,183 @@
+@import url(#);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins' , sans-serif;
+}
+
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: #101728;
+    color: white;
+    
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #0a0e1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .7s;
+}
+.logo:hover{
+    font-size: 2.8rem;
+    color: #38B6FF;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 4rem;
+    transition: .7s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    padding: .6rem 1.5rem;
+    background: #38B6FF;
+    border-radius: 4rem;
+    box-shadow: 0 0 3rem #38B6FF;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: white;
+    display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+span {
+    color: #38B6FF;
+}
+
+
+
+.home-img img {
+    margin-top: 15%;
+    height: 400px;
+    width: 700px;
+}
+
+
+
+.decouvrir {
+    margin-bottom: 30rem;
+    margin-left: 15%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background: #0a0e1a;
+}
+
+.decouvrir-container h4 {
+    font-size: 2.6rem;
+    color: #38B6FF;
+    margin-bottom: 3rem;
+}
+
+.decouvrir-container p {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 10rem;
+}
+
+.decouvrir-container ol li {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+}
+
+.decouvrir-container ol {
+    margin-bottom: 10rem;
+}
+
+
+.tele h4 {
+    font-size: 2.6rem;
+    color: red;
+    margin-bottom: 10rem;
+}
+
+.tele p {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btnt {
+    margin-left: 10rem;
+    padding: 1rem 2.8rem;
+    color: red;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btnt:hover {
+    box-shadow: 0 0 3rem #38B6FF;
+    color: black;
+    background: #38B6FF;
+}
